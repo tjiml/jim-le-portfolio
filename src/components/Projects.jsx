@@ -49,7 +49,7 @@ export default function ProjectDisplay() {
                 {/* weather app*/}
                 <div className="weather-block" data-aos="fade-in" data-aos-delay="1600" data-aos-duration="1500">
                     <h4>WEATHER APP</h4>
-                    <a href="https://weather-app-jn4u.onrender.com" target="_blank" onClick={alertWebsite}>
+                    <a href="https://weather-app-rt8w.onrender.com/" target="_blank" onClick={alertWebsite}>
                         <h1 className="bi bi-thermometer-half"></h1>
                     </a>
                 </div>

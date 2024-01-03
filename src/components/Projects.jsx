@@ -70,6 +70,15 @@ export default function ProjectDisplay() {
                     </a>
                 </div>
 
+                {/* gym app*/}
+                <div className="gym-block" data-aos="fade-in" data-aos-delay="1800" data-aos-duration="1500">
+                    <h4>GYM APPLICATION</h4>
+                    <a href="https://gym-application-xg2r.onrender.com/" target="_blank" onClick={alertWebsite}>
+                        <h1 className="bi bi-hammer"></h1>
+                    </a>
+                </div>
+
+
             </div>
         
         </>

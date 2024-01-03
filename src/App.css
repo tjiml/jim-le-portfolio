@@ -241,7 +241,7 @@
 }
 
 .projects-container {
-    margin-top: 50px;
+    margin: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +253,8 @@
 .boba-block,
 .weather-block,
 .magic-8-block,
-.blockchain-block {
+.blockchain-block,
+.gym-block {
     width: 400px;
     border: none;
     margin: 20px;
@@ -270,7 +271,8 @@
 .boba-block h4,
 .weather-block h4,
 .magic-8-block h4,
-.blockchain-block h4 {
+.blockchain-block h4,
+.gym-block h4 {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
     color: black;
     font-family: rubik;
@@ -281,7 +283,8 @@
 .boba-block h1,
 .weather-block h1,
 .magic-8-block h1,
-.blockchain-block h1 {
+.blockchain-block h1,
+.gym-block h1 {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
     color: white;
     padding: 15px 20px;
@@ -295,7 +298,8 @@
 .boba-block:hover h1,
 .weather-block:hover h1,
 .magic-8-block:hover h1,
-.blockchain-block:hover h1 {
+.blockchain-block:hover h1,
+.gym-block:hover h1 {
     transform: scale(1.3);
 }
 
@@ -304,7 +308,8 @@
 .boba-block button,
 .weather-block button,
 .magic-8-block button,
-.blockchain-block button {
+.blockchain-block button,
+.gym-block button {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
     font-family: rubik;
     border: 1px solid black;
@@ -320,7 +325,8 @@
 .boba-block:hover button,
 .weather-block:hover button,
 .magic-8-block:hover button,
-.blockchain-block:hover button {
+.blockchain-block:hover button,
+.gym-block:hover button {
     transform: scale(1.2);
 }
 
@@ -353,9 +359,10 @@
     .boba-block,
     .weather-block,
     .magic-8-block,
-    .blockchain-block {
+    .blockchain-block,
+    .gym-block {
         box-shadow: none;
-        width: 50%;
+        width: 60%;
         margin: 0;
     }
 
@@ -374,7 +381,8 @@
     .boba-block button,
     .weather-block button,
     .magic-8-block button,
-    .blockchain-block button {
+    .blockchain-block button,
+    .gym-block button {
         margin-top: 10px;
     }
 
@@ -384,7 +392,8 @@
     .boba-block h4,
     .weather-block h4,
     .magic-8-block h4,
-    .blockchain-block h4 {
+    .blockchain-block h4,
+    .gym-block h4 {
         font-size: 15px;
     }
 
